@@ -1,16 +1,16 @@
- <h1 align="left"> Medium Clone built with Next.js, Tailwind CSS & Sanity
+<h1 align="left"> Double Thank you built with Next.js, Tailwind CSS & Sanity
 </h1>
 
 ![Medium](https://user-images.githubusercontent.com/99812352/165297430-387a0c48-3c6d-4593-b393-9e833eb42c69.PNG)
 
 <h1 align="left">#Overview - <a href="https://medium-clone-tau.vercel.app">Live Demo</a>
  </h1>
-<p align="left">Medium Clone website built with Next.js, Tailwind CSS, Sanity & Typescript and also by using Firebase v9, React hooks, react Context... ... All used to build a friendly user experience.
+<p align="left">Double Thank you website built with Next.js, Tailwind CSS, Sanity & Typescript and also by using Firebase v9, React hooks, react Context... ... All used to build a friendly user experience.
 </p>
  <h1 align="left"> Features</h1>
-<li>Browse posts, and comments in the Medium interface</li>
+<li>Browse posts, and comments in the Double Thank you interface</li>
 <li>using SSG for rendering our Home Page and SSR for the Post Page (combine them togheter)</li>
-<li>Search through the Medium & ability to subscribe to newsletter</li>
+<li>Search through Double Thank you & ability to subscribe to newsletter</li>
 <li>Login & Sign up with Google or Email </li>
 <li>Responsive design</li>
 <h1 align="left"> Screenshots</h1>

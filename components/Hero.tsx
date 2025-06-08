@@ -6,7 +6,7 @@ function Hero() {
         <div className="px-10 space-y-5">
           <h1 className="text-6xl capitalize max-w-xl font-serif">
             <span className="underline decoration-black decoration-4">
-              medium
+              Double Thank You
             </span>{" "}
             is a place to write, read, and connect
           </h1>

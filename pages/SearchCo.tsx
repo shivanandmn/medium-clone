@@ -67,7 +67,7 @@ function Search({ posts }: Props) {
                               <div className="flex  justify-start items-center">
                                 <img
                                   className="h-6  rounded-full"
-                                  src={urlFor(post && post.author.image).url()!}
+                                  src={urlFor(post && post.author.image).url()}
                                   alt=""
                                 />
                                 <span className="font-medium ml-2 text-xs capitalize">
@@ -87,7 +87,7 @@ function Search({ posts }: Props) {
 
                             <img
                               className="  object-cover cursor-pointer w-20 ml-10 h-20 rounded-md"
-                              src={urlFor(post && post.mainImage).url()!}
+                              src={urlFor(post && post.mainImage).url()}
                               alt="image"
                             />
                           </div>
