@@ -33,14 +33,14 @@ export function SignupCo() {
           <img
             className="w-44 object-contain cursor-pointer"
             src="https://miro.medium.com/max/8978/1*s986xIGqhfsN8U--09_AdA.png"
-            alt=""
+            alt="Double Thank you logo"
           />
         </Link>
       </div>
       <div className="font-poppins mt-20 space-y-4">
         <h1 className="text-4xl ">Amost there!</h1>
         <h2 className="text-lg text-gray-600">
-          Finish creating your account for the full Medium experience.
+          Finish creating your account for the full Double Thank you experience.
         </h2>
       </div>
       <form onSubmit={handlesubmit} className="my-10 font-poppins">

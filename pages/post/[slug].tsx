@@ -1031,7 +1031,7 @@ function Post({ post, posts }: Props) {
                   </h2>
                 )}
                 <h2 className="pr-4 text-xs  pt-6">
-                  By signing up, you will create a Medium account if you don’t
+                  By signing up, you will create a Double Thank you account if you don’t
                   already have one. Review our{" "}
                   <span className="cursor-pointer underline">
                     Privacy Policy
@@ -1120,7 +1120,7 @@ function Post({ post, posts }: Props) {
                   distance={20}
                 >
                   <button className="bg-gray-800 cursor-not-allowed text-sm hover:bg-gray-900 duration-500 px-4 py-2 text-white rounded-full">
-                    Write on medium
+                    Write on Double Thank you
                   </button>
                 </Tooltip>
               </div>
@@ -1229,7 +1229,7 @@ function Post({ post, posts }: Props) {
                     : "bg-gray-100 w-[330px]  top-[200px]  absolute p-4 space-y-2 rounded-md shadow-lg backdrop-blur-xl"
                 }`}
               >
-                <h2 className="mt-4">From Medium</h2>
+                <h2 className="mt-4">From Double Thank you</h2>
                 <hr />
                 {posts
                   .filter((val) => {
@@ -1311,7 +1311,7 @@ function Post({ post, posts }: Props) {
               </div>
               <div className="py-4">
                 <h2 className="text-gray-900 text-md font-semibold capitalize">
-                  more from medium
+                  more from Double Thank you
                 </h2>
                 <div className="py-6">
                   {posts.slice(0, 5)?.map((post) => (
@@ -1425,7 +1425,7 @@ function Post({ post, posts }: Props) {
                     <div className="px-10  md:-translate-0 absolute w-full m-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2">
                       <div className="">
                         <div className="capitalize flex-col font-poppins text-2xl  flex justify-center my-10">
-                          <h1 className="py-10">Join Medium.</h1>
+                          <h1 className="py-10">Join Double Thank you.</h1>
                           <h2 className="text-sm max-w-[24rem] m-auto">
                             Create an account to receive great stories in your
                             inbox, personalize your homepage, and follow authors
@@ -1462,8 +1462,8 @@ function Post({ post, posts }: Props) {
                         </div>
                         <div className="font-poppins  mb-20   text-center text-gray-600 text-xs flex justify-center items-center">
                           <h2>
-                            Click “Sign Up” to agree to Medium’s Terms of
-                            Service and acknowledge that Medium’s Privacy Policy
+                            Click “Sign Up” to agree to Double Thank you’s Terms of
+                            Service and acknowledge that Double Thank you’s Privacy Policy
                             applies to you.
                           </h2>
                         </div>
@@ -1538,8 +1538,8 @@ function Post({ post, posts }: Props) {
                         </div>
                         <div className="font-poppins  mb-20   text-center text-gray-600 text-xs flex justify-center items-center">
                           <h2>
-                            Click “Sign In” to agree to Medium’s Terms of
-                            Service and acknowledge that Medium’s Privacy Policy
+                            Click “Sign In” to agree to Double Thank you’s Terms of
+                            Service and acknowledge that Double Thank you’s Privacy Policy
                             applies to you.
                           </h2>
                         </div>

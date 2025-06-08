@@ -69,14 +69,14 @@ export function Header() {
           <Link passHref href="/">
             <img
               src="https://miro.medium.com/max/8978/1*s986xIGqhfsN8U--09_AdA.png"
-              alt=""
+              alt="Double Thank you logo"
               className="h-10 hidden sm:block cursor-pointer"
             />
           </Link>
           <Link passHref href="/">
             <img
               src="https://cdn3.iconfinder.com/data/icons/social-media-black-white-2/1151/Medium_logo_-_black-512.png"
-              alt=""
+              alt="Double Thank you logo"
               className="h-14 sm:hidden cursor-pointer"
             />
           </Link>
@@ -212,7 +212,7 @@ export function Header() {
                     <div className="px-10  md:-translate-0 absolute w-full m-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2">
                       <div className="">
                         <div className="capitalize flex-col font-poppins text-2xl  flex justify-center my-10">
-                          <h1 className="py-10">Join Medium.</h1>
+                          <h1 className="py-10">Join Double Thank you.</h1>
                           <h2 className="text-sm max-w-[24rem] m-auto">
                             Create an account to receive great stories in your
                             inbox, personalize your homepage, and follow authors
@@ -249,8 +249,8 @@ export function Header() {
                         </div>
                         <div className="font-poppins  mb-20   text-center text-gray-600 text-xs flex justify-center items-center">
                           <h2>
-                            Click “Sign Up” to agree to Medium’s Terms of
-                            Service and acknowledge that Medium’s Privacy Policy
+                            Click “Sign Up” to agree to Double Thank you’s Terms of
+                            Service and acknowledge that Double Thank you’s Privacy Policy
                             applies to you.
                           </h2>
                         </div>
@@ -325,8 +325,8 @@ export function Header() {
                         </div>
                         <div className="font-poppins  mb-20   text-center text-gray-600 text-xs flex justify-center items-center">
                           <h2>
-                            Click “Sign In” to agree to Medium’s Terms of
-                            Service and acknowledge that Medium’s Privacy Policy
+                            Click “Sign In” to agree to Double Thank you’s Terms of
+                            Service and acknowledge that Double Thank you’s Privacy Policy
                             applies to you.
                           </h2>
                         </div>
