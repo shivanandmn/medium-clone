@@ -544,7 +544,7 @@ function Post({ post, posts }: Props) {
               <div>
                 <img
                   className="h-12 w-12 object-cover rounded-full"
-                  src={urlFor(post.author.image).url()!}
+                  src={urlFor(post.author.image).url()}
                   alt=""
                 />
               </div>
@@ -695,7 +695,7 @@ function Post({ post, posts }: Props) {
                     ? "max-h-[600px]  fixed z-50  m-auto inset-x-0 inset-y-0 p-2 bg-white rounded-sm overflow-y-scroll cursor-zoom-out   duration-500 ease-in-out"
                     : "h-auto  cursor-zoom-in my-8 w-full object-cover   duration-500 ease-in-out"
                 }`}
-                src={urlFor(post.mainImage).url()!}
+                src={urlFor(post.mainImage).url()}
                 alt="image"
               />
             </div>
@@ -704,8 +704,8 @@ function Post({ post, posts }: Props) {
             <BlockContent
               blocks={post.body}
               className="capitalize mt-6 imagepaddingstyle li link text-[20px]"
-              dataset={process.env.NEXT_PUBLIC_SANITY_DATASET!}
-              projectId={process.env.NEXT_PUBLIC_SANITY_PROJECT_ID!}
+              dataset={process.env.NEXT_PUBLIC_SANITY_DATASET || ""}
+              projectId={process.env.NEXT_PUBLIC_SANITY_PROJECT_ID || ""}
               content={post.body || []}
               serializers={{
                 types: {
@@ -854,7 +854,7 @@ function Post({ post, posts }: Props) {
                           <div className="rounded-full w-8 h-8 bg-green-600">
                             {comment.userImage ? (
                               <img
-                                src={urlFor(comment.userImage).url()!}
+                                src={urlFor(comment.userImage).url()}
                                 className="rounded-full h-8 w-8 object-cover cursor-pointer"
                                 alt="imag"
                               />
@@ -1070,8 +1070,8 @@ function Post({ post, posts }: Props) {
             <div className="py-4 pr-0 mb-8 text-sm sm:pr-44">
               {" "}
               <BlockContent
-                dataset={process.env.NEXT_PUBLIC_SANITY_DATASET!}
-                projectId={process.env.NEXT_PUBLIC_SANITY_PROJECT_ID!}
+                dataset={process.env.NEXT_PUBLIC_SANITY_DATASET || ""}
+                projectId={process.env.NEXT_PUBLIC_SANITY_PROJECT_ID || ""}
                 blocks={post.author.bio}
               />
             </div>
@@ -1090,15 +1090,15 @@ function Post({ post, posts }: Props) {
                     </div>
                     <div className="sm:line-clamp-3 line-clamp-2 text-[13px] sm:text-[15px] text-gray-900">
                       <BlockContent
-                        dataset={process.env.NEXT_PUBLIC_SANITY_DATASET!}
-                        projectId={process.env.NEXT_PUBLIC_SANITY_PROJECT_ID!}
+                        dataset={process.env.NEXT_PUBLIC_SANITY_DATASET || ""}
+                        projectId={process.env.NEXT_PUBLIC_SANITY_PROJECT_ID || ""}
                         blocks={post.body.slice(0, 2)}
                       />
                     </div>
                   </div>
                   <img
                     className="object-cover cursor-pointer w-24 h-24 sm:w-36 ml-10 sm:h-36"
-                    src={urlFor(post.mainImage).url()!}
+                    src={urlFor(post.mainImage).url()}
                     alt="image"
                   />
                 </div>
@@ -1150,9 +1150,9 @@ function Post({ post, posts }: Props) {
                           <BlockContent
                             blocks={post.body.slice(0, 2)}
                             className="capitalize text-[16px]"
-                            dataset={process.env.NEXT_PUBLIC_SANITY_DATASET!}
+                            dataset={process.env.NEXT_PUBLIC_SANITY_DATASET || ""}
                             projectId={
-                              process.env.NEXT_PUBLIC_SANITY_PROJECT_ID!
+                              process.env.NEXT_PUBLIC_SANITY_PROJECT_ID || ""
                             }
                             content={post.body.slice(0, 2) || []}
                             serializers={{
@@ -1165,7 +1165,7 @@ function Post({ post, posts }: Props) {
                       </div>
                       <img
                         className="object-cover cursor-pointer w-24 h-24 sm:w-36 ml-10 sm:h-36"
-                        src={urlFor(post.mainImage).url()!}
+                        src={urlFor(post.mainImage).url()}
                         alt="image"
                       />
                     </div>
@@ -1276,7 +1276,7 @@ function Post({ post, posts }: Props) {
             <div>
               <img
                 className="h-24 w-24 object-cover rounded-full"
-                src={urlFor(post.author.image).url()!}
+                src={urlFor(post.author.image).url()}
                 alt=""
               />
               <h1 className="font-bold py-4 text-gray-900">
@@ -1285,8 +1285,8 @@ function Post({ post, posts }: Props) {
               <h2 className="text-gray-500 text-sm">
                 <BlockContent
                   className=""
-                  dataset={process.env.NEXT_PUBLIC_SANITY_DATASET!}
-                  projectId={process.env.NEXT_PUBLIC_SANITY_PROJECT_ID!}
+                  dataset={process.env.NEXT_PUBLIC_SANITY_DATASET || ""}
+                  projectId={process.env.NEXT_PUBLIC_SANITY_PROJECT_ID || ""}
                   blocks={post.author.bio}
                 />
               </h2>
@@ -1327,7 +1327,7 @@ function Post({ post, posts }: Props) {
                             <img
                               alt="r"
                               className="h-6 rounded-full"
-                              src={urlFor(post.author.image).url()!}
+                              src={urlFor(post.author.image).url()}
                             />
                             <span className="text-sm font-normal capitalize">
                               {post.author.name}
@@ -1342,7 +1342,7 @@ function Post({ post, posts }: Props) {
                         <div className="h-16 w-16 flex justify-start">
                           <img
                             className="h-full w-full rounded-md cursor-pointer  object-cover group-hover:scale-105 transition-transform duration-200 ease-in-out"
-                            src={urlFor(post.mainImage).url()!}
+                            src={urlFor(post.mainImage).url()}
                             alt="image"
                           />
                         </div>
